@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samuel's Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <style>
+      .oxygen-light {
+        font-family: "Oxygen", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+
+      .oxygen-regular {
+        font-family: "Oxygen", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .oxygen-bold {
+        font-family: "Oxygen", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .ubuntu-mono-regular {
+        font-family: "Ubuntu Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .ubuntu-mono-bold {
+        font-family: "Ubuntu Mono", monospace;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .ubuntu-mono-regular-italic {
+        font-family: "Ubuntu Mono", monospace;
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      .ubuntu-mono-bold-italic {
+        font-family: "Ubuntu Mono", monospace;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      body {
+        background-color: #98c5d9;
+      }
+      .hero-header {
+        text-align: center;
+      }
+      #hand-wave-emoji {
+        text-align: center;
+        padding-right: 500px;
+      }
+      .hero-col {
+        height: 100vh;
+      }
+      .hero-row {
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .hero {
+        height: 100vh;
+        background-image: url("./images/hero-image8.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+      .centered-text {
+        text-align: center;
+      }
+      .feature-image {
+        border-radius: 2%;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+      .feature-card {
+        background-color: #5d7985 !important;
+        color: #f5f7f8;
+      }
+      .turquoise-text {
+        color: #30f2ad;
+      }
+      .sky-blue-text {
+        color: #30b8f2;
+      }
+      .light-blue-text {
+        color: #30f2ef;
+      }
+      .green-text {
+        color: #30f26c;
+      }
+      .blue-text {
+        color: #307bf2;
+      }
+      a {
+        color: #30f2ef;
+      }
+      .subheading-text-color {
+        color: #30b8f2;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero -->
+    <div class="hero px-4 py-5 text-center">
+      <div class="row">
+        <div class="col">
+          <!-- <h1 id="d-block mx-auto mb-4 pe-5">👋</h1> -->
+          <!-- <h1 class="oxygen-bold display-5 fw-bold text-body-emphasis">hi, I'm Samuel!</h1>
+                <div class="col-lg-6 mx-auto">
+                    <p class="oxygen-bold display-6 text-body-emphasis lead mb-4">I'm a <span class="ubuntu-mono-regular-italic"><mark style="background-color: #F5F7F8;">programmer</mark></span></p>
+                </div> -->
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+    </div>
+
+    <!-- Jumbotron -->
+    <div class="m-5 text-center container">
+      <h1 class="oxygen-bold">Welcome to my personal portfolio!</h1>
+      <p class="col-lg-8 mx-auto lead oxygen-light">
+        This website will serve as a short intoduction about me :)
+      </p>
+    </div>
+
+    <!-- Skils -->
+    <div class="container oxygen-regular">
+      <h1 class="pb-2 border-bottom centered-text">👨‍💻Skills🎓</h1>
+      <div class="row justify-content-start mb-2">
+        <div
+          class="h-100 p-5 bg-body-tertiary border rounded-3 col-8 feature-card"
+        >
+          <div class="row">
+            <div class="col-7">
+              <h2 class="green-text">Android App Developer📱</h2>
+              <p>
+                I realised my liking for creating Android Apps in
+                <a href="https://www.sutd.edu.sg/"
+                  >Singapore University of Technology and Design</a
+                >, self-studying it using online paid and free resources,
+                notably
+                <a href="https://codingwithmitch.com/">CodingWithMitch</a> and
+                then later
+                <a href="https://www.youtube.com/@PhilippLackner"
+                  >Philipp Lackner's Youtube tutorials</a
+                >
+                during my second 4-month school holiday. Since then, I got a job
+                at
+                <a href="https://www.sla.gov.sg/">Singapore Land Authority</a>
+                and have been working on the OneMap Android app there ever
+                since!
+              </p>
+            </div>
+            <div class="col-5">
+              <img
+                class="feature-image"
+                src="./images/android_dev.png"
+                alt="I am an Android App Developer!"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-end mb-2">
+        <div
+          class="h-100 p-5 bg-body-tertiary border rounded-3 col-8 feature-card"
+        >
+          <div class="row">
+            <div class="col-5">
+              <img
+                class="feature-image"
+                src="./images/web_dev.jpg"
+                alt="I am learning to be a Website Developer!"
+              />
+            </div>
+            <div class="col-7">
+              <h2 class="green-text">Web Developer (In Training!)🖥️</h2>
+              <p>
+                I have graciously been given the opportunity in
+                <a href="https://www.sla.gov.sg/">Singapore Land Authority</a>
+                to spend some time learning Web Development with React, and I am
+                putting it to full use! I hope I will be a good web dev in the
+                future and be able to contribute these new skills in whatever
+                project I'm working on!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hobbies -->
+    <div class="container mt-5 oxygen-regular">
+      <h1 class="pb-2 border-bottom centered-text">🎸Hobbies🎨</h1>
+      <div class="row justify-content-start mb-2">
+        <div
+          class="h-100 p-5 bg-body-tertiary border rounded-3 col-8 feature-card"
+        >
+          <div class="row">
+            <div class="col-7">
+              <h2 class="green-text">Floorballer🏒</h2>
+              <p>
+                I have been blessed to be able to play floorball since Secondary
+                School! At first, I wasn't sure which sport CCA I wanted to
+                join, so I just applied for Soccer (the competition is really
+                strong!) and Floorball (a new sport I'd never heard of before,
+                and it was the first year that the school was offering it). I
+                was accepted into a rag-tag team of excited boys, and thus began
+                my Floorball journey! Being a new team, we lost pretty much
+                every game we played, but we quickly learned to have fun despite
+                it while still trying our very best! Ever since then, playing
+                Floorball has been one of the highlights of every school I've
+                gone to :). Nowadays, I'm pretty much retired from Floorball
+                though, as to play it requires a team and an expensive court
+                booking, and I don't have the kind of free time I once had to
+                commit to it. Yet, whenever I look back at the good 'ol times, I
+                remember this competitive era of my life very fondly!
+              </p>
+            </div>
+            <div class="col-5">
+              <img
+                class="feature-image"
+                src="./images/floorball.jpg"
+                alt="I am a proud Floorballer!"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-end mb-2">
+        <div
+          class="h-100 p-5 bg-body-tertiary border rounded-3 col-8 feature-card"
+        >
+          <div class="row">
+            <div class="col-5">
+              <img
+                class="feature-image"
+                src="./images/guitar.jpg"
+                alt="I enjoy playing the guitar."
+              />
+            </div>
+            <div class="col-7">
+              <h2 class="green-text">Amateur Guitarist🎵</h2>
+              <p>
+                I started playing the guitar in NS with the help of my friend
+                Danial, who took the time to teach me during our free times. I
+                got my first guitar at an incredibly low price on Carousell, and
+                it's still my only and favourite guitar to this day! I decided
+                not to try to be a very good guitarist - I only want to spend as
+                much time and effort on it as needed to play the songs I
+                like/want to play. I also use this hobby to help out during
+                church small-group gatherings (cell groups!) whenever called
+                upon :)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
